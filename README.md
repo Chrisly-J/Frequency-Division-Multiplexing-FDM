@@ -1,7 +1,5 @@
 # Frequency-Division-Multiplexing-FDM
 
----
-
 ### Aim:
 
 To simulate Frequency Division Multiplexing (FDM) and Demultiplexing in Scilab by generating six message signals, modulating them onto distinct carrier frequencies using amplitude modulation, combining them into a composite FDM signal, and recovering each original signal through coherent demodulation and filtering to verify proper separation.
