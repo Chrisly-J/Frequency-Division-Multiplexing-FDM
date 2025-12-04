@@ -38,7 +38,7 @@ Frequency Division Multiplexing (FDM) is a technique in which multiple message s
 ```sci
 clc;clear;close;
 
-fs = 58400;
+fs = 49300;
 t = 0:1/fs:0.03;
 
 m1 = 6.8*sin(2*%pi*534*t);
@@ -48,7 +48,7 @@ m4 = 7.1*sin(2*%pi*564*t);
 m5 = 7.2*sin(2*%pi*574*t);
 m6 = 7.3*sin(2*%pi*584*t);
 
-fc = [5340 5440 5540 5640 5740 5840];
+fc = [4430 4530 4630 4730 4830 4930];
 
 c1 = 13.6*cos(2*%pi*fc(1)*t);
 c2 = 13.8*cos(2*%pi*fc(2)*t);
@@ -116,9 +116,9 @@ subplot(1,1,1);  plot(t, s);title("FDM Signal");
 
 ### Output Waveform:
 
-<img width="1536" height="800" alt="image" src="https://github.com/user-attachments/assets/acc02c22-577d-4b7a-9271-95afa807af2e" />
+<img width="758" height="724" alt="Screenshot 2025-12-04 134940" src="https://github.com/user-attachments/assets/e3cb9d85-c3e9-4ab2-ba17-e000e3321cf9" />
 
-<img width="1536" height="800" alt="image" src="https://github.com/user-attachments/assets/669ea06f-5e52-47db-aa1e-a981ae352fb5" />
+<img width="760" height="721" alt="Screenshot 2025-12-04 134957" src="https://github.com/user-attachments/assets/41dc5c2e-cf56-44d9-a756-d662aa642303" />
 
 ---
 
