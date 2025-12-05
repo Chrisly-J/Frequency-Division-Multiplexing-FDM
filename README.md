@@ -41,12 +41,12 @@ clc;clear;close;
 fs = 56300;
 t = 0:1/fs:0.03;
 
-m1 = 6.8*sin(2*%pi*534*t);
-m2 = 6.9*sin(2*%pi*544*t);
-m3 = 7.0*sin(2*%pi*554*t);
-m4 = 7.1*sin(2*%pi*564*t);
-m5 = 7.2*sin(2*%pi*574*t);
-m6 = 7.3*sin(2*%pi*584*t);
+m1 = 6.8*sin(2*%pi*513*t);
+m2 = 6.9*sin(2*%pi*523*t);
+m3 = 7.0*sin(2*%pi*533*t);
+m4 = 7.1*sin(2*%pi*543*t);
+m5 = 7.2*sin(2*%pi*553*t);
+m6 = 7.3*sin(2*%pi*563*t);
 
 fc = [5130 5230 5330 5430 5530 5630];
 
@@ -116,9 +116,9 @@ subplot(1,1,1);  plot(t, s);title("FDM Signal");
 
 ### Output Waveform:
 
-<img width="757" height="717" alt="Screenshot 2025-12-04 142153" src="https://github.com/user-attachments/assets/b75f31f9-a1a9-492a-b2d5-315c0837ad96" />
+<img width="758" height="719" alt="Screenshot 2025-12-05 211355" src="https://github.com/user-attachments/assets/d1fb7a28-97c4-4754-9d32-523f13e9f5b3" />
 
-<img width="757" height="719" alt="Screenshot 2025-12-04 142206" src="https://github.com/user-attachments/assets/88508566-f51c-41df-94cf-9263e1de1363" />
+<img width="747" height="693" alt="Screenshot 2025-12-05 211413" src="https://github.com/user-attachments/assets/731167ac-e63c-4716-b13e-7872ad5cbeae" />
 
 ---
 
