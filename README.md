@@ -124,7 +124,9 @@ subplot(1,1,1);  plot(t, s);title("FDM Signal");
 
 ### Tabulation:
 
+![WhatsApp Image 2025-12-06 at 16 11 08_89dc87b4](https://github.com/user-attachments/assets/94dab377-12a6-4f59-a9d8-80825f14cbcf)
 
+![WhatsApp Image 2025-12-06 at 16 11 08_be9cab8b](https://github.com/user-attachments/assets/52419dc4-9e80-4387-ab66-e47beb4c35f3)
 
 ---
 
